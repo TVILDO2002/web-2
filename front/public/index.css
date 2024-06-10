@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.displayFlex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+
+}
+.addWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px black dotted;
+  width: 50%;
+  gap: 25px;
+  padding: 25px;
+}
+.addWrapper input,.addWrapper button,.searchWrapper input{
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 18px;
+
+}
+.categoryWrapper{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  
+}
+.categoryWrapper li{
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+
+}
+.moviesWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 50px;
+  flex-wrap: wrap;
+
+}
+.moviesWrapper ul{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.moviesWrapper li{
+  margin-top: 10px;
+  font-size: 17px;
+  text-align: center;
+  
+}
+.moviesWrapper li::first-letter{
+  text-transform: capitalize;
+}
+.moviesWrapper button{
+  border: 1px solid rgb(247, 3, 3);
+  background-color: black;
+  border-radius: 10px;
+  width: 30%;
+  cursor: pointer;
+  margin-top: 10px;
+  color: red;
+}
+.searchWrapper{
+  display: flex;
+  justify-content: center;
+}
+.searchWrapper input{
+  margin: 15px;
+  width: 50%;
+}
